@@ -1,0 +1,44 @@
+#titel {
+    grid-area: titel;
+    background-color: lightblue;
+}
+
+#login {
+    grid-area: login;
+    background-color: lightblue;
+
+}
+
+#inhalt {
+    grid-area: inhalt;
+
+}
+
+#fußzeile {
+    grid-area: fußzeile;
+    background-color: lightblue;
+    padding-right: 10px;
+    text-align: right;
+}
+
+
+#wrapper {
+    margin-top: 5%;
+    margin-left: 20%;
+
+    display:grid;
+    grid-template-areas: 
+        "titel titel titel titel"
+        "login inhalt inhalt inhalt"
+        "fußzeile fußzeile fußzeile fußzeile"
+    ;
+    grid-gap: 10px
+}
+
+p {
+    padding-left: 10px;
+}
+
+h1 {
+    padding-left: 10px;
+}

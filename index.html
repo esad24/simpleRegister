@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta charset="utf-8">
+        <title>Website Verkaufen</title>
+        <link rel="stylesheet" type="text/css" href="main.css">
+    </head>
+    <body>
+        <div id="wrapper">
+            <div id="titel">
+                <h1>
+                    {{ Vorname }}s Krimskrams Laden
+                </h1>
+            </div>
+
+            <div id="login">
+                <h1>
+                    Login<br>
+                    <label for="username" style="font-size:20px">Username</label><br>
+                    <input type="text" id="username"><br>
+
+                    <label for="passwort" style="font-size:20px">Passwort</label><br>
+                    <input type="password" id="passwort"><br>
+
+                    <button id="einloggen" onclick="login()">Login</button>
+                    <button id="registieren" onclick="register()">Registrieren</button>
+                </h1>
+            </div>
+
+            <div id="inhalt">
+                <h1>
+                    Hauptinhalt
+                </h1>
+            </div>
+
+            <div id="fußzeile">
+                <p>
+                    Vorname, Nachname, Matrikelnummer
+                </p>
+            </div>
+        </div>
+
+
+        <script src="main.js"></script>
+    </body>
+</html>
